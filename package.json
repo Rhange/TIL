@@ -1,0 +1,17 @@
+{
+	"name": "TIL",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/Rhange/TIL.git",
+	"author": "rhange <rhange0511@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"vuepress": "^1.8.2",
+		"vuepress-theme-solarized": "^1.1.1"
+	},
+	"scripts": {
+		"dev": "vuepress dev",
+		"build": "vuepress build",
+		"eject": "vuepress eject"
+	}
+}
