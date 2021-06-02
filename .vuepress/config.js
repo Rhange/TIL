@@ -1,6 +1,8 @@
 module.exports = {
 	title: "Today Rhange Learned",
 	description: "vuepress로 만든 문서입니다.",
+	base: "/TIL/",
+	dest: "build",
 	themeConfig: {
 		logo: "https://avatars.githubusercontent.com/u/46353755?v=4",
 		nav: [{ text: "Home", link: "/" }],
