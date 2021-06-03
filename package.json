@@ -10,8 +10,8 @@
 		"vuepress-theme-solarized": "^1.1.1"
 	},
 	"scripts": {
-		"dev": "vuepress dev",
-		"build": "vuepress build",
-		"eject": "vuepress eject"
+		"dev": "vuepress dev docs",
+		"build": "vuepress build docs",
+		"eject": "vuepress eject docs"
 	}
 }
