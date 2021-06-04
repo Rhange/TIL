@@ -7,7 +7,14 @@ module.exports = [
 		children: [
 			{
 				title: "2021년",
-				children: ["06/"].map((v) => `${Review2021}/${v}`),
+				children: [
+					{
+						title: "6월",
+						children: ["06/", "06/1주차", "06/2주차"].map(
+							(v) => `${Review2021}/${v}`
+						),
+					},
+				],
 			},
 		],
 	},
