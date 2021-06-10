@@ -7,7 +7,7 @@ module.exports = {
 	dest: "build",
 	themeConfig: {
 		nav: [
-			{ text: "Wiki", link: "/" },
+			{ text: "Home", link: "/" },
 			{ text: "Github", link: "https://github.com/rhange" },
 		],
 		sidebar,
