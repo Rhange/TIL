@@ -23,6 +23,15 @@ module.exports = [
 		],
 	},
 	{
+		title: "Books",
+		children: [
+			{
+				title: "생각의 탄생",
+				children: ["", "intro/"].map((v) => `Books/Sparks of Genius/${v}`),
+			},
+		],
+	},
+	{
 		title: "Java",
 		children: ["", "Test"].map((v) => `Java/${v}`),
 	},
