@@ -1,9 +1,8 @@
 const Review2021 = "/Review/2021";
 
 module.exports = [
-	{ title: "About me", path: "/" },
 	{
-		title: "Log",
+		title: "📅 Review",
 		children: [
 			{
 				title: "2021년",
@@ -23,7 +22,8 @@ module.exports = [
 		],
 	},
 	{
-		title: "Books",
+		title: "📚 Books",
+		collapsable: true,
 		children: [
 			{
 				title: "생각의 탄생",
@@ -33,6 +33,7 @@ module.exports = [
 	},
 	{
 		title: "Java",
+		collapsable: true,
 		children: ["", "Test"].map((v) => `Java/${v}`),
 	},
 ];
