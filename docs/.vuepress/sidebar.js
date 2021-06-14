@@ -1,4 +1,5 @@
 const Review2021 = "/Review/2021";
+const Books2021 = "/Books/2021";
 
 module.exports = [
 	{
@@ -23,17 +24,17 @@ module.exports = [
 	},
 	{
 		title: "📚 Books",
-		collapsable: true,
 		children: [
 			{
 				title: "생각의 탄생",
-				children: ["", "intro/"].map((v) => `Books/Sparks of Genius/${v}`),
+				children: ["", "intro/"].map(
+					(v) => `${Books2021}/Sparks of Genius/${v}`
+				),
 			},
 		],
 	},
 	{
 		title: "Java",
-		collapsable: true,
 		children: ["", "Test"].map((v) => `Java/${v}`),
 	},
 ];

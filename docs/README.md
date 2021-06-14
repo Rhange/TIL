@@ -34,7 +34,7 @@ home: false
 h1 {
   font-family: "SLEIGothicTTF", cursive;
   font-weight: 400;
-  border-bottom: 8px solid #5485ce;
+  border-bottom: 8px solid #0096FF;
   word-break: keep-all;
   font-size: 4rem;
   margin-bottom:3px;
