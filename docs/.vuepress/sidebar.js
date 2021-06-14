@@ -26,10 +26,15 @@ module.exports = [
 		title: "📚 Books",
 		children: [
 			{
-				title: "생각의 탄생",
-				children: ["", "intro/"].map(
-					(v) => `${Books2021}/Sparks of Genius/${v}`
-				),
+				title: "2021",
+				children: [
+					{
+						title: "생각의 탄생",
+						children: ["", "intro/"].map(
+							(v) => `${Books2021}/Sparks of Genius/${v}`
+						),
+					},
+				],
 			},
 		],
 	},

@@ -6,8 +6,7 @@ home: false
   <div>
     <div class="titleContainer">
       <h1>
-        오늘 배운 건
-        <br/>오늘 적자
+        생각 
       </h1>
       <div class="infoContainer">
         <div class="name">Rhange's TIL</div>
