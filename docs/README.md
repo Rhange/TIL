@@ -6,10 +6,11 @@ home: false
   <div>
     <div class="titleContainer">
       <h1>
-        생각 
+        그 날한 일들은
+        <br/>그 날 작성하자.
       </h1>
       <div class="infoContainer">
-        <div class="name">Rhange's TIL</div>
+        <div class="name">⠎⠕⠝⠀⠚⠊⠝⠎⠥</div>
             <div style="text-align: right">
                 <p><a href="https://github.com/rhange" target="_blank">GitHub</a></p>
                 <p><a href="https://rhange.tistory.com" target="_blank">Tistory</a></p>

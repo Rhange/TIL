@@ -1,7 +1,7 @@
 const sidebar = require("./sidebar");
 
 module.exports = {
-	title: "The Think",
+	title: "–　· · · ·　·　　–　· · · ·　· ·　– ·　– · –",
 	description: "Today I Learned",
 	base: "/TIL/",
 	dest: "build",

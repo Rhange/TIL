@@ -34,6 +34,10 @@ module.exports = [
 							(v) => `${Books2021}/Sparks of Genius/${v}`
 						),
 					},
+					{
+						title: "CODE",
+						children: ["", "Ch1", "Ch2"].map((v) => `${Books2021}/Code/${v}`),
+					},
 				],
 			},
 		],
