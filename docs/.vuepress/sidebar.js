@@ -43,7 +43,7 @@ module.exports = [
 		],
 	},
 	{
-		title: "Java",
-		children: ["", "Test"].map((v) => `Java/${v}`),
+		title: "☕ Java",
+		children: ["AccessLevelModifiers", "Static"].map((v) => `Java/${v}`),
 	},
 ];
