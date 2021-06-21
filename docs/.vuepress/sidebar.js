@@ -46,4 +46,8 @@ module.exports = [
 		title: "☕ Java",
 		children: ["AccessLevelModifiers", "Static"].map((v) => `Java/${v}`),
 	},
+	{
+		title: "💉 Jekyll",
+		children: [""].map((v) => `Jekyll/${v}`),
+	},
 ];
