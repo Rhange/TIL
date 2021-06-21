@@ -44,6 +44,6 @@ module.exports = [
 	},
 	{
 		title: "☕ Java",
-		children: ["AccessLevelModifiers", "Static"].map((v) => `Java/${v}`),
+		children: ["AccessLevelModifiers", "Static", "OOP"].map((v) => `Java/${v}`),
 	},
 ];
