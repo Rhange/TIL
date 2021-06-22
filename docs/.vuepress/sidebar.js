@@ -36,7 +36,9 @@ module.exports = [
 					},
 					{
 						title: "CODE",
-						children: ["", "Ch1", "Ch2", "Ch3", "Ch6", "Ch7", "Ch8", "Ch9"].map((v) => `${Books2021}/Code/${v}`),
+						children: ["", "Ch1", "Ch2", "Ch3", "Ch6", "Ch7", "Ch8", "Ch9"].map(
+							(v) => `${Books2021}/Code/${v}`
+						),
 					},
 				],
 			},
@@ -44,7 +46,9 @@ module.exports = [
 	},
 	{
 		title: "☕ Java",
-		children: ["AccessLevelModifiers", "Static", "OOP"].map((v) => `Java/${v}`),
+		children: ["AccessLevelModifiers", "Static", "OOP", "Instance"].map(
+			(v) => `Java/${v}`
+		),
 	},
 	{
 		title: "💉 Jekyll",
