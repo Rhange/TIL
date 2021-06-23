@@ -60,8 +60,10 @@ module.exports = [
 	},
 	{
 		title: "🧿 Pentaho",
-		children: ["", "installation"].map(
-			(v) => `Pentaho/${v}`
-		),
+		children: ["", "installation"].map((v) => `Pentaho/${v}`),
+	},
+	{
+		title: "🐧 Linux",
+		children: [""].map((v) => `Linux/${v}`),
 	},
 ];
