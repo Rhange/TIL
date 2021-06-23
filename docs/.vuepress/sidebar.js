@@ -20,7 +20,7 @@ module.exports = [
 					},
 					{
 						title: "6월",
-						children: ["06/"].map((v) => `${Review2021}/${v}`),
+						children: ["06/4th_week"].map((v) => `${Review2021}/${v}`),
 					},
 				],
 			},
@@ -57,5 +57,11 @@ module.exports = [
 	{
 		title: "💉 Jekyll",
 		children: [""].map((v) => `Jekyll/${v}`),
+	},
+	{
+		title: "🧿 Pentaho",
+		children: ["", "installation"].map(
+			(v) => `Pentaho/${v}`
+		),
 	},
 ];
