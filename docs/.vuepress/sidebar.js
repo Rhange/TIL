@@ -44,6 +44,12 @@ module.exports = [
 							(v) => `${Books2021}/Code/${v}`
 						),
 					},
+					{
+						title: "PDI Beginner's Guide(2nd)",
+						children: ["", "Ch1"].map(
+							(v) => `${Books2021}/PDI Beginner's Guide 2nd/${v}`
+						),
+					},
 				],
 			},
 		],
