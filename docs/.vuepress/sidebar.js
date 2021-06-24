@@ -66,6 +66,6 @@ module.exports = [
 	},
 	{
 		title: "🐧 Linux",
-		children: [""].map((v) => `Linux/${v}`),
+		children: ["capture", "update-alternatives"].map((v) => `Linux/${v}`),
 	},
 ];
