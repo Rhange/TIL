@@ -66,9 +66,12 @@ module.exports = [
 	},
 	{
 		title: "🧿 Pentaho",
-		children: ["", "installation/windows/", "installation/ubuntu/"].map(
-			(v) => `Pentaho/${v}`
-		),
+		children: [
+			"",
+			"installation/windows/",
+			"installation/ubuntu/",
+			"connectionWithDB/",
+		].map((v) => `Pentaho/${v}`),
 	},
 	{
 		title: "🐧 Linux",

@@ -1,4 +1,10 @@
-# 펜타호 소개
+# 펜타호(Pentaho) 소개
+
+<center>
+
+<iframe width="90%" height="330" src="https://www.youtube.com/embed/HPDYv3NBo7c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+</center>
 
 전 세계 1,800여 사이트에서 활용하는 엔드-투-엔드 원스톱 빅데이터 플랫폼이 있다. 정형 및 비정형 데이터의 수집(Extract)부터 변환(Transformation), 적재(Load), 분석(Analysis), 그리고 시각화(Visualization)에 이르는 과정 모두를 제공하는 히타치 밴타라(Hitachi Vantara)의 펜타호(Pentaho)다.
 
