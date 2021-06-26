@@ -46,9 +46,10 @@ module.exports = [
 					},
 					{
 						title: "파인만에게 길을 묻다",
-						children: ["YouCanDoThatMonkeysDo"].map(
-							(v) => `${Books2021}/Feynman's Rainbow/${v}`
-						),
+						children: [
+							"YouCanDoThatMonkeysDo",
+							"SolvingProblemThatIsImpossible",
+						].map((v) => `${Books2021}/Feynman's Rainbow/${v}`),
 					},
 
 					{
@@ -63,9 +64,14 @@ module.exports = [
 	},
 	{
 		title: "☕ Java",
-		children: ["AccessLevelModifiers", "Static", "OOP", "Instance"].map(
-			(v) => `Java/${v}`
-		),
+		children: [
+			"AccessLevelModifiers",
+			"Static",
+			"OOP",
+			"Instance",
+			"ConstructorAndThis",
+			"Inheritance_Interface",
+		].map((v) => `Java/${v}`),
 	},
 	{
 		title: "💉 Jekyll",
