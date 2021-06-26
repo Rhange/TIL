@@ -45,6 +45,13 @@ module.exports = [
 						),
 					},
 					{
+						title: "파인만에게 길을 묻다",
+						children: ["YouCanDoThatMonkeysDo"].map(
+							(v) => `${Books2021}/Feynman's Rainbow/${v}`
+						),
+					},
+
+					{
 						title: "PDI Beginner's Guide(2nd)",
 						children: ["", "Ch1"].map(
 							(v) => `${Books2021}/PDI Beginner's Guide 2nd/${v}`
