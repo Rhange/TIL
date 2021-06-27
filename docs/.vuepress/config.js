@@ -30,6 +30,13 @@ module.exports = {
 				"window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MGCTDHK7LL');",
 			],
 		],
+		[
+			"meta",
+			{
+				name: "google-site-verification",
+				content: "vuuiAMGb2-5CYVhyBdQUvwaXzbm-P_J5Fwp6XAh1B3Y",
+			},
+		],
 	],
 	plugins: [
 		"@vuepress/back-to-top",
