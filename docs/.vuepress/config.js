@@ -15,4 +15,25 @@ module.exports = {
 		sidebar,
 		smoothScroll: true,
 	},
+	head: [
+		[
+			"script",
+			{
+				async: true,
+				src: "https://www.googletagmanager.com/gtag/js?id=G-MGCTDHK7LL",
+			},
+		],
+		[
+			"script",
+			{},
+			[
+				"window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MGCTDHK7LL');",
+			],
+		],
+	],
+	plugins: [
+		"@vuepress/back-to-top",
+		"sitemap",
+		{ hostname: "https://rhange.github.io/TIL/" },
+	],
 };
