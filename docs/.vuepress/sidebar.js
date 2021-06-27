@@ -51,7 +51,12 @@ module.exports = [
 							"SolvingProblemThatIsImpossible",
 						].map((v) => `${Books2021}/Feynman's Rainbow/${v}`),
 					},
-
+					{
+						title: "쇼펜하우어 문장론",
+						children: ["speculation"].map(
+							(v) => `${Books2021}/Schopenhauer_syntax/${v}`
+						),
+					},
 					{
 						title: "PDI Beginner's Guide(2nd)",
 						children: ["", "Ch1"].map(
