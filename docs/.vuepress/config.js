@@ -35,5 +35,6 @@ module.exports = {
 		"@vuepress/back-to-top",
 		"sitemap",
 		{ hostname: "https://rhange.github.io/TIL/" },
+		"@vuepress/last-updated",
 	],
 };
