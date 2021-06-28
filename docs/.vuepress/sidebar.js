@@ -76,6 +76,8 @@ module.exports = [
 			"Instance",
 			"ConstructorAndThis",
 			"Inheritance_Interface",
+			"this_and_super",
+			"inheritance_and_constructor",
 		].map((v) => `Java/${v}`),
 	},
 	{
