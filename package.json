@@ -17,5 +17,8 @@
 		"dev": "vuepress dev docs",
 		"build": "vuepress build docs",
 		"eject": "vuepress eject docs"
+	},
+	"dependencies": {
+		"moment": "^2.29.1"
 	}
 }
