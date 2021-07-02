@@ -18,3 +18,5 @@
 - PostgreSQL
 - SQLite
 - ...
+
+[참고 링크 - Pentaho Document](https://help.pentaho.com/Documentation/9.1/Setup/JDBC_drivers_reference)

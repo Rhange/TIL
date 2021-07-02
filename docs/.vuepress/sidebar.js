@@ -73,13 +73,14 @@ module.exports = [
 		title: "☕ Java",
 		children: [
 			"AccessLevelModifiers",
-			"Static",
-			"OOP",
-			"Instance",
 			"ConstructorAndThis",
-			"Inheritance_Interface",
-			"this_and_super",
 			"inheritance_and_constructor",
+			"Inheritance_Interface",
+			"Instance",
+			"OOP",
+			"polymorphism_accessModifier_final_abstract",
+			"Static",
+			"this_and_super",
 		].map((v) => `Java/${v}`),
 	},
 	{
@@ -93,6 +94,8 @@ module.exports = [
 			"installation/windows/",
 			"installation/ubuntu/",
 			"connectionWithDB/",
+			"connectionWithDB/connMySQL",
+			"connectionWithDB/connMSSQL",
 		].map((v) => `Pentaho/${v}`),
 	},
 	{

@@ -1,4 +1,5 @@
 const sidebar = require("./sidebar");
+const moment = require("moment");
 
 module.exports = {
 	title: "–　· · · ·　·　　–　· · · ·　· ·　– ·　– · –",
@@ -47,6 +48,15 @@ module.exports = {
 		["@vuepress/pwa", { serviceWorker: true, updatePopup: true }],
 		"@vuepress/back-to-top",
 		["sitemap", { hostname: "https://rhange.github.io/TIL" }],
-		"@vuepress/last-updated",
+		[
+			"@vuepress/last-updated",
+			{
+				transformer: (timestamp, lang) => {
+					const moment = require("moment");
+					moment.locale("ko-KR");
+					return moment(timestamp).fromNow();
+				},
+			},
+		],
 	],
 };
