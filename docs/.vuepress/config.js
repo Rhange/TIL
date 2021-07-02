@@ -17,6 +17,7 @@ module.exports = {
 			},
 		],
 		sidebar,
+		lastUpdated: "Last Updated",
 		smoothScroll: true,
 	},
 	head: [
@@ -46,15 +47,6 @@ module.exports = {
 		["@vuepress/pwa", { serviceWorker: true, updatePopup: true }],
 		"@vuepress/back-to-top",
 		["sitemap", { hostname: "https://rhange.github.io/TIL" }],
-		[
-			"@vuepress/last-updated",
-			{
-				transformer: (timestamp, lang) => {
-					const moment = require("moment");
-					moment.locale(lang);
-					return moment(timestamp).fromNow();
-				},
-			},
-		],
+		"@vuepress/last-updated",
 	],
 };
