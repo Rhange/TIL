@@ -35,10 +35,20 @@ module.exports = [
 				title: "2021",
 				children: [
 					{
-						title: "생각의 탄생",
+						title: "[3단계] 생각의 탄생",
 						children: ["", "intro/", "abstract/"].map(
 							(v) => `${Books2021}/Sparks of Genius/${v}`
 						),
+					},
+					{
+						title: "[2단계] 기적을 부르는 뇌",
+						children: [""].map(
+							(v) => `${Books2021}/The Brain That Changes Itself/${v}`
+						),
+					},
+					{
+						title: "[1단계] 헤드 스트롱",
+						children: [""].map((v) => `${Books2021}/HEAD STRONG/${v}`),
 					},
 					{
 						title: "CODE",
