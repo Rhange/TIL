@@ -112,4 +112,10 @@ module.exports = [
 		title: "🐧 Linux",
 		children: ["capture", "update-alternatives"].map((v) => `Linux/${v}`),
 	},
+	{
+		title: "🧠 Metacognition",
+		children: ["mbti", "strengthFinder", "strengthFinder_in-depth"].map(
+			(v) => `metacognition/${v}`
+		),
+	},
 ];
