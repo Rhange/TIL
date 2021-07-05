@@ -24,6 +24,10 @@ module.exports = [
 							(v) => `${Review2021}/${v}`
 						),
 					},
+					{
+						title: "7월",
+						children: ["07/1st_week"].map((v) => `${Review2021}/${v}`),
+					},
 				],
 			},
 		],
@@ -48,7 +52,9 @@ module.exports = [
 					},
 					{
 						title: "[1단계] 헤드 스트롱",
-						children: [""].map((v) => `${Books2021}/HEAD STRONG/${v}`),
+						children: ["", "intro", "ch1", "ch2", "ch3", "ch4", "ch5"].map(
+							(v) => `${Books2021}/HEAD STRONG/${v}`
+						),
 					},
 					{
 						title: "CODE",
