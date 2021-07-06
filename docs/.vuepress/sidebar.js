@@ -58,9 +58,17 @@ module.exports = [
 					},
 					{
 						title: "CODE",
-						children: ["", "Ch1", "Ch2", "Ch3", "Ch6", "Ch7", "Ch8", "Ch9"].map(
-							(v) => `${Books2021}/Code/${v}`
-						),
+						children: [
+							"",
+							"Ch1",
+							"Ch2",
+							"Ch3",
+							"Ch6",
+							"Ch7",
+							"Ch8",
+							"Ch9",
+							"Ch10",
+						].map((v) => `${Books2021}/Code/${v}`),
 					},
 					{
 						title: "파인만에게 길을 묻다",
