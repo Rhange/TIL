@@ -23,13 +23,6 @@ module.exports = {
 	head: [
 		[
 			"script",
-			{
-				async: true,
-				src: "https://www.googletagmanager.com/gtag/js?id=G-MGCTDHK7LL",
-			},
-		],
-		[
-			"script",
 			{},
 			[
 				"window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MGCTDHK7LL');",
@@ -48,5 +41,11 @@ module.exports = {
 		"@vuepress/back-to-top",
 		["sitemap", { hostname: "https://rhange.github.io/TIL" }],
 		"@vuepress/last-updated",
+		[
+			"@vuepress/google-analytics",
+			{
+				ga: "UA-200651477-1",
+			},
+		],
 	],
 };
