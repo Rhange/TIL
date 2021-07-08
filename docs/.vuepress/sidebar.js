@@ -96,16 +96,27 @@ module.exports = [
 	{
 		title: "☕ Java",
 		children: [
-			"AccessLevelModifiers",
-			"ConstructorAndThis",
-			"inheritance_and_constructor",
-			"Inheritance_Interface",
-			"Instance",
-			"OOP",
-			"polymorphism_accessModifier_final_abstract",
-			"Static",
-			"this_and_super",
-		].map((v) => `Java/${v}`),
+			{
+				title: "생활코딩",
+				children: [
+					"AccessLevelModifiers",
+					"ConstructorAndThis",
+					"inheritance_and_constructor",
+					"Inheritance_Interface",
+					"Instance",
+					"OOP",
+					"polymorphism_accessModifier_final_abstract",
+					"Static",
+					"this_and_super",
+				].map((v) => `Java/egoing/${v}`),
+			},
+			{
+				title: "그때 그때 공부",
+				children: ["Collections.unmodifiableList"].map(
+					(v) => `Java/personal/${v}`
+				),
+			},
+		],
 	},
 	{
 		title: "💉 Jekyll",

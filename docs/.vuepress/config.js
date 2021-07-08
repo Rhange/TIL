@@ -38,9 +38,9 @@ module.exports = {
 	],
 	plugins: [
 		["@vuepress/pwa", { serviceWorker: true, updatePopup: true }],
-		"@vuepress/back-to-top",
-		["sitemap", { hostname: "https://rhange.github.io/TIL" }],
-		"@vuepress/last-updated",
+		["@vuepress/back-to-top"],
+		["sitemap", { hostname: "https://rhange.github.io/TIL/" }],
+		["@vuepress/last-updated"],
 		[
 			"@vuepress/google-analytics",
 			{
