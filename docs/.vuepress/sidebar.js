@@ -52,9 +52,17 @@ module.exports = [
 					},
 					{
 						title: "[1단계] 헤드 스트롱",
-						children: ["", "intro", "ch1", "ch2", "ch3", "ch4", "ch5"].map(
-							(v) => `${Books2021}/HEAD STRONG/${v}`
-						),
+						children: [
+							"",
+							"intro",
+							"ch1",
+							"ch2",
+							"ch3",
+							"ch4",
+							"ch5",
+							"ch6",
+							"ch7",
+						].map((v) => `${Books2021}/HEAD STRONG/${v}`),
 					},
 					{
 						title: "CODE",
@@ -79,7 +87,7 @@ module.exports = [
 					},
 					{
 						title: "쇼펜하우어 문장론",
-						children: ["speculation"].map(
+						children: ["speculation", "writing_and_style"].map(
 							(v) => `${Books2021}/Schopenhauer_syntax/${v}`
 						),
 					},
