@@ -47,5 +47,16 @@ module.exports = {
 				ga: "UA-200651477-1",
 			},
 		],
+		[
+			`feed`,
+			{
+				canonical_base: "https://rhange.github.io/TIL/",
+				author: {
+					name: "JinsuSon",
+					email: "rhange0511@gmail.com",
+					link: "https://rhange.github.io/",
+				},
+			},
+		],
 	],
 };
