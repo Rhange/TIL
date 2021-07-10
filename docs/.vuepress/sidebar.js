@@ -116,6 +116,10 @@ module.exports = [
 					"polymorphism_accessModifier_final_abstract",
 					"Static",
 					"this_and_super",
+					"interface_intro",
+					"interface_shape",
+					"polymorphism",
+					"interface_javaAPI",
 				].map((v) => `Java/egoing/${v}`),
 			},
 			{
