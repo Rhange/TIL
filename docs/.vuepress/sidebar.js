@@ -26,7 +26,9 @@ module.exports = [
 					},
 					{
 						title: "7월",
-						children: ["07/1st_week"].map((v) => `${Review2021}/${v}`),
+						children: ["07/1st_week", "07/2nd_week"].map(
+							(v) => `${Review2021}/${v}`
+						),
 					},
 				],
 			},

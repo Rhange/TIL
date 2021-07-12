@@ -6,8 +6,8 @@ home: false
   <div>
     <div class="titleContainer">
       <h1>
-        그 날한 일들은
-        <br/>그 날 작성하자.
+        기록보다
+        <br/>생각을
       </h1>
       <div class="infoContainer">
         <div class="name">⠎⠕⠝⠀⠚⠊⠝⠎⠥</div>
