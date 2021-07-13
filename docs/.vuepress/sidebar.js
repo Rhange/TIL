@@ -89,9 +89,7 @@ module.exports = [
 					},
 					{
 						title: "쇼펜하우어 문장론",
-						children: ["speculation", "writing_and_style"].map(
-							(v) => `${Books2021}/Schopenhauer_syntax/${v}`
-						),
+						children: [""].map((v) => `${Books2021}/Schopenhauer_syntax/${v}`),
 					},
 					{
 						title: "PDI Beginner's Guide(2nd)",
