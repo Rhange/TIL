@@ -89,7 +89,9 @@ module.exports = [
 					},
 					{
 						title: "쇼펜하우어 문장론",
-						children: [""].map((v) => `${Books2021}/Schopenhauer_syntax/${v}`),
+						children: ["", "Summary"].map(
+							(v) => `${Books2021}/Schopenhauer_syntax/${v}`
+						),
 					},
 					{
 						title: "PDI Beginner's Guide(2nd)",
@@ -120,6 +122,7 @@ module.exports = [
 					"interface_shape",
 					"polymorphism",
 					"interface_javaAPI",
+					"ErrorAndException",
 				].map((v) => `Java/egoing/${v}`),
 			},
 			{
