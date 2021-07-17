@@ -42,9 +42,13 @@ module.exports = [
 				children: [
 					{
 						title: "[3단계] 생각의 탄생",
-						children: ["", "intro/", "abstract/"].map(
-							(v) => `${Books2021}/Sparks of Genius/${v}`
-						),
+						children: [
+							"",
+							"intro/",
+							"abstract/",
+							"01Observing/",
+							"02Imaging/",
+						].map((v) => `${Books2021}/Sparks of Genius/${v}`),
 					},
 					{
 						title: "[2단계] 기적을 부르는 뇌",
