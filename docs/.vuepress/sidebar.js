@@ -162,4 +162,15 @@ module.exports = [
 			(v) => `metacognition/${v}`
 		),
 	},
+	{
+		title: "🥇 Certificates",
+		children: [
+			{
+				title: "정보처리기사",
+				children: ["", "필기/01.요구사항확인/현행시스템분석"].map(
+					(v) => `certificates/EngineerInformationProcessing/${v}`
+				),
+			},
+		],
+	},
 ];
