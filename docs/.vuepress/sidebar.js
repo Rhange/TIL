@@ -48,6 +48,8 @@ module.exports = [
 							"abstract/",
 							"01Observing/",
 							"02Imaging/",
+							"03Abstracting/",
+							"04RecognizingPatterns/",
 						].map((v) => `${Books2021}/Sparks of Genius/${v}`),
 					},
 					{
