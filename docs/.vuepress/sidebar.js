@@ -179,4 +179,8 @@ module.exports = [
 			},
 		],
 	},
+	{
+		title: "🐕 Github",
+		children: ["GithubAction/"].map((v) => `Github/${v}`),
+	},
 ];
