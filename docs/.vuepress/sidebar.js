@@ -54,6 +54,7 @@ module.exports = [
 							"02Imaging/",
 							"03Abstracting/",
 							"04RecognizingPatterns/",
+							"05FormingPatterns/",
 						].map((v) => `${Books2021}/Sparks of Genius/${v}`),
 					},
 					{
