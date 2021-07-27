@@ -26,9 +26,13 @@ module.exports = [
 					},
 					{
 						title: "7월",
-						children: ["07/1st_week", "07/2nd_week"].map(
-							(v) => `${Review2021}/${v}`
-						),
+						children: [
+							"07/1st_week",
+							"07/2nd_week",
+							"07/3rd_week",
+							"07/4th_week",
+							"07/5th_week",
+						].map((v) => `${Review2021}/${v}`),
 					},
 				],
 			},
